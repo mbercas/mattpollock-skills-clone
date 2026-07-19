@@ -1,0 +1,3 @@
+interface:
+  display_name: "Analysis"
+  short_description: "Answer a quantitative question with a notebook that is the report"

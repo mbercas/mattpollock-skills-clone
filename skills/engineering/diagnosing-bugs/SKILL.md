@@ -105,6 +105,8 @@ Tool preference:
 
 **Perf branch.** For performance regressions, logs are usually wrong. Instead: establish a baseline measurement (timing harness, `performance.now()`, profiler, query plan), then bisect. Measure first, fix second.
 
+**Quantitative legs.** When a leg of the investigation is answered by computing over data — flake rate vs. parameter, performance distributions, sensitivity sweeps — drive the `/analysis` skill for that leg: the measurements land in a maintained notebook, so the evidence outlives the session instead of dying in throwaway scripts.
+
 ## Phase 5 — Fix + regression test
 
 Write the regression test **before the fix** — but only if there is a **correct seam** for it.
